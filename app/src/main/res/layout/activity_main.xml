@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <com.example.micgo.compoundviewtrainer.TextImageSwitcherView
+        android:id="@+id/person1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        custom:showText="true"
+        custom:titleText="Jeff Ward"
+        custom:imageUrl="https:////images.ctfassets.net/3cttzl4i3k1h/3BdQSQcuMgcs00qYoOuYSY/f0858540116928dc5fd0b2e84def8e19/headshot_jeff_ward.jpg"/>
+
+    <com.example.micgo.compoundviewtrainer.TextImageSwitcherView
+        android:id="@+id/person2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        custom:showText="true"
+        custom:titleText="Joel Garrett"
+        custom:imageUrl="https://images.ctfassets.net/3cttzl4i3k1h/4Mv2CONANym46UwuuCIgK/cbeb43c93a843a43c07b1de9954795e2/headshot_joel_garrett.jpg">
+
+
+
+    </com.example.micgo.compoundviewtrainer.TextImageSwitcherView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextImageSwitcherView">
+        <attr name="showText" format="boolean"/>
+        <attr name="imageUrl" format="string" />
+        <attr name="titleText" format="string" />
+        <attr name="animStartDelay" format="integer"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:text="Hello World" />
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:src="@android:drawable/ic_btn_speak_now"
+        tools:src="@drawable/ic_android_happy"
+        tools:ignore="ContentDescription" />
+
+</merge>
